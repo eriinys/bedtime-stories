@@ -51,7 +51,6 @@ public class Main {
                 repeat = true;
             } else if (answer.equalsIgnoreCase("no")) {
                 System.out.println("Goodbye!");
-                repeat = false;
                 break;
             } else {
                 System.err.println("Invalid input. Please enter \"yes or no\"");
